@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookShop.Bll", "BookShop.Bll\BookShop.Bll.csproj", "{70446EB5-E3A5-4D0A-ABAB-E4B97FCAB1EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookShop.App.Cmd", "BookShop.App.Cmd\BookShop.App.Cmd.csproj", "{D46FBFBC-DD29-4429-9D32-149381CD62CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookShop.Data.Memory", "BookShop.Data.Memory\BookShop.Data.Memory.csproj", "{4C7BB486-096E-4702-B401-97403B7197D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookShop.DI", "BookShop.DI\BookShop.DI.csproj", "{F7035022-E441-4CEE-B84A-B784B32D6C8C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookShop.Settings", "BookShop.Settings\BookShop.Settings.csproj", "{EB63CD30-96F5-43FA-B18E-BFEFD737B874}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookShop.Data.Sql", "BookShop.Data.Sql\BookShop.Data.Sql.csproj", "{90FDF4AC-5224-4E30-AA70-C3D9A95AED96}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookShop.Tests", "BookShop.Tests\BookShop.Tests.csproj", "{9C868434-B17C-4434-940D-4830A3830C4B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{70446EB5-E3A5-4D0A-ABAB-E4B97FCAB1EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70446EB5-E3A5-4D0A-ABAB-E4B97FCAB1EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70446EB5-E3A5-4D0A-ABAB-E4B97FCAB1EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70446EB5-E3A5-4D0A-ABAB-E4B97FCAB1EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D46FBFBC-DD29-4429-9D32-149381CD62CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D46FBFBC-DD29-4429-9D32-149381CD62CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D46FBFBC-DD29-4429-9D32-149381CD62CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D46FBFBC-DD29-4429-9D32-149381CD62CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C7BB486-096E-4702-B401-97403B7197D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C7BB486-096E-4702-B401-97403B7197D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C7BB486-096E-4702-B401-97403B7197D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C7BB486-096E-4702-B401-97403B7197D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7035022-E441-4CEE-B84A-B784B32D6C8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7035022-E441-4CEE-B84A-B784B32D6C8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7035022-E441-4CEE-B84A-B784B32D6C8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7035022-E441-4CEE-B84A-B784B32D6C8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB63CD30-96F5-43FA-B18E-BFEFD737B874}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB63CD30-96F5-43FA-B18E-BFEFD737B874}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB63CD30-96F5-43FA-B18E-BFEFD737B874}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB63CD30-96F5-43FA-B18E-BFEFD737B874}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90FDF4AC-5224-4E30-AA70-C3D9A95AED96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90FDF4AC-5224-4E30-AA70-C3D9A95AED96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90FDF4AC-5224-4E30-AA70-C3D9A95AED96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90FDF4AC-5224-4E30-AA70-C3D9A95AED96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C868434-B17C-4434-940D-4830A3830C4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C868434-B17C-4434-940D-4830A3830C4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C868434-B17C-4434-940D-4830A3830C4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C868434-B17C-4434-940D-4830A3830C4B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8ABE0C73-6566-488B-949D-7CB6673D752A}
+	EndGlobalSection
+EndGlobal
