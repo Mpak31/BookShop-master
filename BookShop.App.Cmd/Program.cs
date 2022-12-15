@@ -104,7 +104,7 @@ namespace BookShop.App.Cmd
 			var name = ReadNotEmptyLine("Название книги");
 			var price = ReadIntLine("Стоимость книги");
 
-			var book = CreateBook(name, author, price) ?? throw new Exception("Ошибка при добавлении книги");
+            var book = CreateBook(name, author, price);// ?? throw new Exception("Ошибка при добавлении книги");
 
 			Console.WriteLine($"Книга [{book}] успешно добавлена");
 			Console.WriteLine();
